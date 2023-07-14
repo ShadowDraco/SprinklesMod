@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bridge:cupcake"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 30,
+			"minecraft:food": {
+				"nutrition": 5,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true
+			}
+		}
+	}
+}

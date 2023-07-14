@@ -1,0 +1,52 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"bridge:aliencat": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient.tame": "mob.aliencat.meow",
+					"ambient": "mob.aliencat.straymeow",
+					"hurt": {
+						"sound": "mob.aliencat.hit",
+						"volume": 0.45
+					},
+					"death": {
+						"sound": "mob.aliencat.hit",
+						"volume": 0.5,
+						"pitch": 0.9
+					},
+					"purr": "mob.aliencat.purr",
+					"purreow": "mob.aliencat.purreow",
+					"eat": "mob.aliencat.eat"
+				}
+			},
+			"bridge:cat": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient.tame": "mob.cat.meow",
+					"ambient": "mob.cat.straymeow",
+					"hurt": {
+						"sound": "mob.cat.hit",
+						"volume": 0.45
+					},
+					"death": {
+						"sound": "mob.cat.hit",
+						"volume": 0.5,
+						"pitch": 0.9
+					},
+					"purr": "mob.cat.purr",
+					"purreow": "mob.cat.purreow",
+					"eat": "mob.cat.eat"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"type": "minecraftBedrock",
+	"name": "SprinklesMod",
+	"namespace": "bridge",
+	"authors": [
+		"Ethan Storm"
+	],
+	"targetVersion": "1.20.1",
+	"description": "Version-2.0",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": false,
+		"creationOfCustomBiomes": true,
+		"additionalModdingCapabilities": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"experimentalMolangFeatures": false,
+		"theWildUpdate": true,
+		"educationEdition": false
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			[
+				"simpleRewrite",
+				{
+					"packName": "SprinklesMod"
+				}
+			],
+			"formatVersionCorrection"
+		]
+	},
+	"bridge": {
+		"formatVersion": 1
+	}
+}

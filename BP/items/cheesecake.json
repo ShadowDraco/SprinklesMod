@@ -1,0 +1,18 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "bridge:cheesecake"
+		},
+		"components": {
+			"minecraft:hand_equipped": false,
+			"minecraft:stacked_by_data": true,
+			"minecraft:use_duration": 80,
+			"minecraft:food": {
+				"nutrition": 10,
+				"saturation_modifier": "supernatural",
+				"can_always_eat": true
+			}
+		}
+	}
+}

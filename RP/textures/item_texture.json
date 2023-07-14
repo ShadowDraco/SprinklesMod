@@ -1,0 +1,15 @@
+{
+	"resource_pack_name": "SprinklesMod",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"bridge_sprinkles": {
+			"textures": "textures/items/sprinkles"
+		},
+		"bridge_cheesecake": {
+			"textures": "textures/items/cheesecake"
+		},
+		"bridge_cupcake": {
+			"textures": "textures/items/cupcake"
+		}
+	}
+}

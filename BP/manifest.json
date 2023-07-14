@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Ethan Storm"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.6.1"
+			],
+			"dash": [
+				"0.10.10"
+			]
+		}
+	},
+	"header": {
+		"name": "pack.name",
+		"description": "pack.description",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "692b2378-773b-4114-b49e-e1ddcb16ca78",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "b9c1e7b0-f7d1-44f0-b8ea-c0e2b4815af2",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,9 @@
+pack.name=SprinklesMod RP
+pack.description=Adds silly and lovely things!
+item.spawn_egg.entity.bridge:cat.name=Spawn Cat
+entity.bridge:cat.name=Alien Cat
+item.bridge:sprinkles.name=Sprinkles
+item.bridge:cheesecake.name=Cheesecake
+item.bridge:cupcake.name=Cupcake
+action.hint.exit.cat=Dismount
+action.hint.exit.player=Dismount

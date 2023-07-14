@@ -1,0 +1,14 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "SprinklesMod",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"bridge_cheesecake": {
+			"textures": "textures/blocks/cheesecake"
+		},
+		"bridge_cupcake": {
+			"textures": "textures/blocks/cupcake"
+		}
+	}
+}

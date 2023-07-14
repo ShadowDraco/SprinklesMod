@@ -1,0 +1,15 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"bridge:cheesecake": {
+		"textures": "bridge_cheesecake",
+		"sound": "stone"
+	},
+	"bridge:cupcake": {
+		"textures": "bridge_cupcake",
+		"sound": "stone"
+	}
+}
